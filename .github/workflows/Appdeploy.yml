@@ -25,7 +25,7 @@ jobs:
           scope: resourcegroup
           subscriptionId: ${{ env.AZURE_SUBSCRIPTION_ID }}
           resourceGroupName: ${{ env.AZURE_RESOURCE_GROUP }}
-          template: IaaC/template.json
-          parameters: IaaC/parameters.json
+          template: Infra/template.json
+          parameters: Infra/parameters.json
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
           
