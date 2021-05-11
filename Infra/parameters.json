@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "appService_DotNetAppSqlDb20210511135418_name": {
+            "value": "DotNetAppSqlDb2021051113541800"
+        },
+        "appServicePlan_ASPnew_location": {
+            "value": "West Europe"
+        },
+        "appServicePlan_ASPnew_name": {
+            "value": "ASPnew"
+        },
+        "currentStack": {
+            "value": "dotnet"
+        },
+        "appServicePlan_ASPnew_skuName": {
+            "value": "S1"
+        },
+        "appServicePlan_ASPnew_skuTier": {
+            "value": "Standard"
+        },
+        "appServicePlan_ASPnew_skuFamily": {
+            "value": "S"
+        },
+        "appServicePlan_ASPnew_skuSize": {
+            "value": "S1"
+        },
+        "appServicePlan_ASPnew_workerSizeId": {
+            "value": 0
+        }
+    }
+}
